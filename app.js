@@ -11,6 +11,8 @@ console.log('This is ' + myName);
 
 
 
+
+
 // 2.3 const and let (+var)
 // const 재선언 금지, 재할당 금지 >> always
 // let 재선언 금지, 재할당 가능 >> sometimes
@@ -25,6 +27,8 @@ console.log('Now, this is ' + myName);
 
 
 
+
+
 // 2.4 booleans
 // true = 1
 // flase = 0
@@ -36,3 +40,20 @@ let areYouFat; //값을 정의하지 않음 = undefined (+ const로는 값이 �
 
 console.log(amIFat);
 console.log(areYouFat);
+
+
+
+
+
+// 2.5 Arrays
+// Arrays can have variables, boolean, text, number.. any type of data
+const daysOfWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+
+// Get item from Array
+console.log(daysOfWeek);
+console.log(daysOfWeek[3]); //computer count from 0
+
+// Add one more day to the array
+daysOfWeek.push('sun');
+
+console.log(daysOfWeek);
