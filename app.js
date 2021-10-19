@@ -57,3 +57,32 @@ console.log(daysOfWeek[3]); //computer count from 0
 daysOfWeek.push('sun');
 
 console.log(daysOfWeek);
+
+
+
+
+
+// 2.6 Objects
+// Different from Array. Because the Objects can have some meaning(property)
+// 설명이 필요하지 않은 데이터 리스트들은 array로,
+// 설명이 필요한 정보가 담긴 데이터 리스트들은 object로!
+const player = {
+    name: 'Jessie',
+    points: 10,
+    cute: true,
+};
+
+console.log(player);
+console.log(player.name);
+console.log(player['name']); // same result
+
+// to change(update) and add property to the object
+player.cute = false,
+player.nickName = 'potato',
+player.points = player.points + 15;
+
+console.log(player);
+
+player.points = player.points + 15;
+
+console.log(player);
