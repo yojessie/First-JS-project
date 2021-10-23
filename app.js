@@ -86,3 +86,33 @@ console.log(player);
 player.points = player.points + 15;
 
 console.log(player);
+
+
+
+
+
+// 2.7 ~ 2.8 Functions
+function sayHello(nameOfPerson, age) {
+    console.log('Hello, my name is ' + nameOfPerson + ' and I am ' + age);
+}
+sayHello('Jessie', 33);
+sayHello('Sun', 38);
+sayHello('Young', 29);
+
+
+function plus(a, b) {
+    // The argument A and B are only exist in this function.
+    console.log(a + b);
+};
+plus(8, 60);
+
+
+// Use function in object
+const character = {
+    name: 'Jessie',
+    greeting: function (friendName) {
+        console.log('Hello, ' + friendName + '. Nice to meet you');
+    },
+};
+character.greeting('Subin')
+
