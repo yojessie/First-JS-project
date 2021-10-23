@@ -84,6 +84,8 @@ player.points = player.points + 15;
 console.log(player);
 
 player.points = player.points + 15;
+// 앞에 업데이트 된 값에서 다시 +가 된다.
+// 콘솔에서 해당 이름의 오브젝트를 펼쳐보면 업데이트 전 console.log에도 최종 업데이트 값이 들어있음
 
 console.log(player);
 
