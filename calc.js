@@ -76,6 +76,11 @@ if (isNaN(age) || age < 0) {
     console.log('Enjoy your drink');
     // 조건 둘 다 충족하게 만들때 && 을 사용한다 (= And operator = And 연산자)
     // Or operaotr는 || 를 사용
+} else if (age === 100) {
+    console.log('Oh, you are hundred');
+    // 동일한 값을 찾는 연산자 ===
+    // 한개의 = 는 한개의 value를 할당하는 것
+    // 동일하지 않은 값을 찾는 연산자는 !==
 } else {
     console.log('I am worrying about your condition');
 }
