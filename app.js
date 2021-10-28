@@ -118,3 +118,34 @@ const character = {
 };
 character.greeting('Subin')
 
+
+
+
+
+// 3.0 ~ 3.1 HTML in Javascript
+document.title = 'I can change the title';
+// I can change the title of document from Javascript
+
+const title = document.getElementById('title');
+// Javascript can select the elements in HTML
+
+title.innerText = 'It changed from Javascript';
+// and also can change it
+
+
+
+
+
+// 3.2 Searching for Elements
+const apple = document.querySelector('.apple h1')
+
+console.log(apple);
+// apple.innerText = 'banana'; 텍스트 내용 변경 테스트
+
+// getElementsByClassName('class-name'); 많은 element를 array로 가져옴
+// getElementsByTagName('name'); 해당 name이 할당된 element를 가져옴
+
+// getElementById('id');
+// querySelector('#id'); 위와 동일한 결과
+// querySelector('.apple h1'); CSS selector 방식으로 element를 가져옴 & 첫 element만 가져옴
+// querySelectorAll('.apple h1'); 동일한 조건의 elements를 array로 가져옴
