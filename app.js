@@ -137,7 +137,7 @@ title.innerText = 'It changed from Javascript';
 
 
 // 3.2 Searching for Elements
-const apple = document.querySelector('.apple h1')
+const apple = document.querySelector('.apple p')
 
 console.log(apple);
 // apple.innerText = 'banana'; 텍스트 내용 변경 테스트
@@ -149,3 +149,44 @@ console.log(apple);
 // querySelector('#id'); 위와 동일한 결과
 // querySelector('.apple h1'); CSS selector 방식으로 element를 가져옴 & 첫 element만 가져옴
 // querySelectorAll('.apple h1'); 동일한 조건의 elements를 array로 가져옴
+
+
+
+
+
+// 3.3 Events (3.2에 정의된 variable 이용)
+function handleAppleClick() {
+    console.log('It was clicked!');
+    // 클릭했을때 뭘 할지 function으로 먼저 정의
+
+    // or can use
+    // apple.style.color = 'blue';
+}
+
+apple.addEventListener('click', handleAppleClick);
+
+
+
+
+
+// 3.6 CSS in Javascript
+const peach = document.querySelector('.peach p');
+
+console.log(peach); //선택자가 잘 잡혔나 확인
+
+function handlePeachClick() {
+    peach.classList.toggle('active');
+    
+    // const activeClass = 'active'
+
+    // if (peach.classList.contains(activeClass)){
+    //     peach.classList.remove(activeClass);
+    // } else {
+    //     peach.classList.add(activeClass);
+    // }
+    // // className : 선택자의 class를 교체해버림
+    // // classList : 선택자에있는 class를 확인함
+    // // 위 function은 자주 쓰이는 코드이므로 toogle로 간단하게 대체사용이 가능
+}
+
+peach.addEventListener('click', handlePeachClick);

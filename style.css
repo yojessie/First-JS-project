@@ -7,7 +7,21 @@ body {
     height: 100vh;
 }
 
-h1 {
+.apple p {
     font-size: 30px;
+    font-weight: 700;
     color: #333;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #4b89da;
+    transition: color 300ms ease-in-out;
+}
+
+.active {
+    font-size: 30px;
+    font-weight: 700;
+    color: #967ada;
 }
