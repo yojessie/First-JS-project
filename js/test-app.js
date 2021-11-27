@@ -113,7 +113,7 @@ plus(8, 60);
 const character = {
     name: 'Jessie',
     greeting: function (friendName) {
-        console.log('Hello, ' + friendName + '. Nice to meet you');
+        console.log('Hello, ' + friendName + '. Nice to meet you' + this.name);
     },
 };
 character.greeting('Subin')
