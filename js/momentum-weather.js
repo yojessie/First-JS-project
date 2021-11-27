@@ -15,7 +15,7 @@ function onGeoSuccess(position) {
             const weather = document.querySelector('.weather span:last-child');
 
             city.innerText = data.name;
-            weather.innerText = `${data.weather[0].main} / ${data.main.temp}`;
+            weather.innerText = `, ${data.weather[0].main}, ${data.main.temp} ℃`;
     });
     // fetch는 서버의 응답을 받아오는데까지 시간이 걸린다.
     // 그래서 then을 같이 사용 (이 이상의 이야기는 이야기가 길어진다.. 일단 패쓰)

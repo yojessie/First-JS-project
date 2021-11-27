@@ -19,7 +19,7 @@ function getClock() {
     // 가지고오는 시간은 number이기때문에 string으로 변환해줘야 padStart를 사용할 수 있다.
     // String() 괄호 안에 number로 출력되는 코드를 넣으면 string으로 변환시킨다.
 
-    clock.innerText = `${hours}:${minutes}:${seconds}`;
+    clock.innerText = `${hours} : ${minutes} : ${seconds}`;
 }
 
 getClock(); //시간을 즉시 호출한 다음

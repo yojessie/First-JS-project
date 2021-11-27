@@ -8,28 +8,33 @@
     <link rel="stylesheet" href="./css/momentum-style.css">
 </head>
 <body>
-    <form class="login-form hidden">
-        <input required maxlength="15" type="text" placeholder="What is your name?">
-        <button>Login</button>
-    </form>
+    <div class="content">
+        <div class="weather">
+            <span></span>
+            <span></span>
+        </div>
 
-    <h2 class="clock">00:00:00</h2>
+        <h2 class="clock">00:00:00</h2>
 
-    <h1 class="greeting hidden"></h1>
-
-    <form class="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required>
-    </form>
-    <ul class="todo-list"></ul>
-
-    <div class="quotes">
-        <span class="quote"></span>
-        <span class="author"></span>
-    </div>
-
-    <div class="weather">
-        <span></span>
-        <span></span>
+        <form class="login-form hidden">
+            <input required maxlength="15" type="text" placeholder="What is your name?">
+            <button>Login</button>
+        </form>
+    
+        <h1 class="greeting hidden"></h1>
+    
+        <div class="todo-container">
+            <form class="todo-form">
+                <input type="text" placeholder="Write a To Do and Press Enter" required>
+                <button>Add</button>
+            </form>
+            <ul class="todo-list"></ul>
+        </div>
+    
+        <div class="quotes">
+            <span class="quote"></span>
+            <span class="author"></span>
+        </div>
     </div>
 
     <script src="./js/momentum-greeting.js"></script>
