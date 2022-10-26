@@ -1,9 +1,14 @@
-## 회고록
+# [ 바닐라 JS로 크롬 앱 만들기 ] 강의 수강
 
-- 프로젝트 진행 기간
-- 진행 내용 (커리큘럼)
-- 주요 배운 내용
-- 결과물
-- 회고
-- momentum-JS
-- Vanilla JavaScript (study note for 'Nomad coders' lecture)
+<br>
+
+`2021-10-17 ~ 2021-11-28`
+<br>
+<br>
+내용 정리
+
+<br>
+<br>
+
+> ### 수강내용 요약
+
